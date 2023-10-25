@@ -1,7 +1,7 @@
-const express = require('express')//
-const app = express()
-const port = 3000
-app.use(express.json())
+const express = require('express')// é usado para importaframework em um projeto.
+const app = express()//é usado para criar uma instância do aplicativo express, permite que você configure e manipulerota.
+const port = 3000//é uma linha de código que define uma chamada contante "port" com o valor 3000.
+app.use(express.json())//é usado para adicionar o middleware.
 
 let bd =[
     {
